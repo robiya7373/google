@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
 
-import Seorch from './components/Seorch'
+import Seorch from "./components/Seorch";
+import Header from "./components/Header";
 
 const App = () => {
   return (
-    <Seorch/>
-  )
-}
+    <>
+      <Header />
+      <Seorch />
+    </>
+  );
+};
 
-export default App
+export default App;
