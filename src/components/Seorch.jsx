@@ -5,16 +5,17 @@ import mic from "../../public/mic.png";
 
 import camera from "../../public/camera.png";
 
+
 const Seorch = () => {
   return (
-    <div className=" items-center justify-center m-[220px] ms-[380px] ">
+    <div className=" items-center justify-center m-[65px] ms-[370px] ">
       <div className="ms-[260px]">
         {" "}
-        <h1 className=" animate-bounce text-blue-700 font-extrabold text-8xl mb-7">
+        <h1 className=" text-blue-700 font-extrabold text-8xl mb-7">
           Google
         </h1>
       </div>
-      <div className=" w-[565px] bg-[#fff] rounded-full p-2  flex items-center ms-[144px] border-solid border-blue-600 border-4">
+      <div className=" w-[565px] bg-[#fff] rounded-full p-2 flex items-center ms-[144px] border-solid border-blue-600 border-4">
         <IconButton>
           <SearchIcon className="animate-spin" />
         </IconButton>
@@ -30,7 +31,7 @@ const Seorch = () => {
           <img src={camera} alt="" className="w-[20px] animate-pulse" />
         </IconButton>
       </div>
-    </div>
+          </div>
   );
 };
 

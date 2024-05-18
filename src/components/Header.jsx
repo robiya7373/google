@@ -38,7 +38,7 @@ const Header = () => {
         {app && (
           <div className="w-[370px] absolute right-4 top-[90px] h-[470px] overflow-y-scroll p-4 rounded-3xl bg-slate-100">
             <div className="bg-[#fff]  p-3 rounded-lg flex flex-wrap justify-between">
-              {appData.map((item, index) => (
+              {appData.map((item) => (
                 <HeaderApp img={item.img} title={item.name} />
               ))}
             </div>
