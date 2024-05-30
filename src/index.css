@@ -8,3 +8,25 @@ body{
     background-size: cover;
    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.iconsCard {
+    .btnDiv {
+      display: none;
+      opacity: 0;
+    }
+  
+    &:hover .btnDiv {
+      display: block;
+      animation: card 0.5s ease-in-out forwards;
+    }
+  }
+  
+  @keyframes card {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

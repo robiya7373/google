@@ -5,15 +5,12 @@ import mic from "../../public/mic.png";
 
 import camera from "../../public/camera.png";
 
-
 const Seorch = () => {
   return (
     <div className=" items-center justify-center m-[65px] ms-[370px] ">
       <div className="ms-[260px]">
         {" "}
-        <h1 className=" text-blue-700 font-extrabold text-8xl mb-7">
-          Google
-        </h1>
+        <h1 className=" text-blue-700 font-extrabold text-8xl mb-7">Google</h1>
       </div>
       <div className=" w-[565px] bg-[#fff] rounded-full p-2 flex items-center ms-[144px] border-solid border-blue-600 border-4">
         <IconButton>
@@ -23,6 +20,7 @@ const Seorch = () => {
           type="text"
           className="w-full outline-none border-0"
           placeholder="Search Google or type a URL"
+          
         />
         <IconButton>
           <img src={mic} alt="" className="w-[15px] animate-pulse" />
@@ -31,7 +29,7 @@ const Seorch = () => {
           <img src={camera} alt="" className="w-[20px] animate-pulse" />
         </IconButton>
       </div>
-          </div>
+    </div>
   );
 };
 
